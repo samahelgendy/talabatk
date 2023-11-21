@@ -1,0 +1,200 @@
+.heading-area {
+    background-color: #f5f5f5;
+    padding-top: 50px;
+}
+.heading-area-inner {
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 164px;
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 991px){
+.heading-area-inner {
+    height: 126px;
+}
+.heading-area h1 {
+    font-size: 40px;
+}
+.about-caption h3 {
+    font-size: 26px;
+}
+}
+.heading-area h1 {
+    font-size: 45px;
+    font-weight: 500;
+    color: #a7234d;
+    margin-top: 18px;
+}
+.about-caption {
+    padding: 42px 0 40px 0;
+}
+.about-caption-inner {
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-caption h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #a7234d;
+    margin-bottom: 15px;
+    line-height: 40px;
+}
+.about-caption p {
+    color: #404040;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 18px;
+}
+article {
+    margin-bottom: 70px;
+}
+@media (max-width: 630px){
+article {
+    margin-bottom: 30px;
+}
+}
+.article-inner {
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media (max-width: 991px){
+.article-inner, article.inverse .article-inner {
+    flex-direction: column;
+    align-items: center;
+}
+
+.artical-left {
+    display: inline-block;
+    width: auto;
+}
+}
+@media screen and (max-width: 630px){
+.artical-left {
+    width: 100%;
+}
+
+.article-image {
+    padding: 20px;
+}
+
+.article-image-inner {
+    width: 100%;
+    height: 100vw;
+}
+}
+.article-image {
+    padding: 32px;
+    background-color: #a7234d;;
+    z-index: 1;
+    position: relative;
+}
+.article-image-inner.img1{
+    background-image:  url(https://www.talabatak.app/resizeImg.php?w=570&h=639&src=assets/img/apptype/DeliverallX/deliverall/20200803215125.jpg);
+}
+.article-image-inner.img2{
+    background-image:  url(https://www.talabatak.app/resizeImg.php?w=570&h=639&src=assets/img/apptype/DeliverallX/deliverall/20200803215014.jpg);
+}
+.article-image-inner {
+    background-image: url(https://www.talabatak.app/resizeImg.php?w=570&h=639&src=assets/img/apptype/DeliverallX/deliverall/20200803214916.jpg);
+    width: 570px;
+    height: 639px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+@media (max-width: 1119px){
+.article-image-inner {
+    width: 520px;
+    height: 589px;
+}
+}
+
+.article-image:after {
+    content: '';
+    position: absolute;
+    padding-right: 178px;
+    border-top: 706px solid #fff;
+    right: 0;
+    top: 0;
+    border-left: 216px solid transparent;
+    z-index: -1;
+}
+@media (max-width: 991px){
+.article-image:after {
+    border-top: 654px solid #fff;
+}
+}
+
+@media screen and (max-width: 630px){
+.article-image:after {
+ display: none;
+}
+.article-image{
+    display: flex;
+}
+}
+.artical-right {
+    width: calc(100% - 665px);
+    width: -o-calc(100% - 665px);
+    width: -ms-calc(100% - 665px);
+    width: -moz-calc(100% - 665px);
+    width: -webkit-calc(100% - 665px);
+    padding-top: 34px;
+}
+@media screen and (max-width: 1119px){
+.artical-right {
+    width: calc(100% - 665px);
+    width: -o-calc(100% - 665px);
+    width: -ms-calc(100% - 665px);
+    width: -moz-calc(100% - 665px);
+    width: -webkit-calc(100% - 595px);
+}
+}
+@media screen and (max-width: 991px){
+.artical-right {
+    width: auto;
+    text-align: center;
+}
+}
+.artical-right h4 {
+    font-size: 35px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+@media screen and (max-width: 630px){
+.artical-right h4 {
+    font-size: 26px;
+}
+}
+
+@media screen and (max-width: 991px){
+.artical-right h4 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+}
+.artical-right p {
+    color: #404040;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 28px;
+}
+
+@media (max-width: 991px){
+    article.inverse .article-inner {
+    flex-direction: column-reverse;
+    align-items: center;
+}
+}
+

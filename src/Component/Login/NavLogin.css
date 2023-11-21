@@ -1,0 +1,38 @@
+.navLogin{
+    color: black !important;
+}
+@media (max-width:768px) {
+    .listLogin{
+        display: none;
+    }
+}
+.navLogin li{
+    position: relative;
+}
+.navLogin li:hover{
+   color: #a7234d;
+   transition: 0.5s;
+}
+.NavSes{
+  position: relative;
+}
+.navLogin li::before{
+    content: "";
+    background-color: #a7234d;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 40px;
+    transition: 0.5s;
+  }
+ 
+  .navLogin li:hover::before{
+    width: 100%;
+    height: 3px;
+  }
+  .showText , .showIcon{
+    color: black !important;
+  }
+  .listLogin{
+    padding-top: 14px;
+  }

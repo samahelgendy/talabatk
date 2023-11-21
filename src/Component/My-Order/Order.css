@@ -1,0 +1,113 @@
+.profile-section {
+    padding: 20px 0;
+}
+.profile-section.my-trips {
+    padding-bottom: 0;
+}
+.profile-section-inner {
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile-caption {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.profile-caption .page-heading {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d7d7d7;
+}
+.page-heading.order{
+    padding: 0 ;
+}
+.profile-caption .page-heading h1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #a7234d;
+}
+.filter-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.filters-column {
+    margin: 0 10px 20px 0;
+    position: relative;
+}
+.filter-form label {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'poppins';
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+}
+.filter-form label {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'poppins';
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+}
+.filter-form select, .filter-form input {
+    height: 36px;
+    border: none;
+    box-shadow: 0 0 0 1px #e0e0e0 inset;
+    border-radius: 3px;
+    /* -webkit-appearance: textfield; */
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+}
+.filter-form input {
+    width: 119px;
+    padding: 10px 32px 10px 10px;
+}
+.filters-column svg {
+    font-size: 19px;
+    position: absolute;
+    right: 5px;
+    bottom: 9px;
+    cursor: initial;
+}
+ .filter-form button , .filter-form a.gen-btn{
+    background-color: #000;
+    outline: none;
+    border: none;
+    font-size: 15.6px;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 400;
+    width: auto;
+    display: inline-block;
+    min-width: 85px;
+    margin: 0 10px 0 0;
+    cursor: pointer;
+    text-align: center;
+    padding: 7px 10px;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-family: 'poppins';
+    line-height: normal;
+}

@@ -1,0 +1,23 @@
+.gen-cms-page {
+    padding: 50px 0;
+}
+.gen-cms-page h2.header-page {
+    font-size: 35px;
+    color: #a7234d;
+    font-weight: 500;
+    margin-bottom: 28px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+}
+.gen-cms-page-inner {
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.static-page h2 {
+    font-size: 28px;
+    color: #a7234d;
+    font-weight: 500;
+    margin-bottom: 28px;
+
+}

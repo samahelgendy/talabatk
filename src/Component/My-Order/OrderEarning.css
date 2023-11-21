@@ -1,0 +1,132 @@
+.profile-earning {
+    padding: 30px 0;
+    background-color: #eee;
+}
+.profile-earning-inner {
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+    min-height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.table-holder {
+    width: 100%;
+    padding: 24px 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+.dataTables_wrapper {
+    position: relative;
+    clear: both;
+}
+ .dataTables_length {
+    margin-bottom: 20px;
+}
+ .dataTables_length select {
+    min-width: unset;
+    padding: 10px 20px 10px 10px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+    box-shadow: 0 0 0 1px #e0e0e0 inset;
+    border: none;
+    outline: none;
+    margin: 0 10px;
+    width: 75px;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 3px;
+}
+.table-holder .dataTables_wrapper .dataTables_filter {
+    margin-bottom: 20px;
+}
+.table-holder .dataTables_wrapper .dataTables_filter label {
+    font-size: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.table-holder .dataTables_wrapper .dataTables_filter input {
+    height: 36px;
+    border: none;
+    box-shadow: 0 0 0 1px #e0e0e0 inset;
+    border-radius: 3px;
+    -webkit-appearance: initial;
+    padding: 10px 40px 10px 10px;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    font-size: 15px;
+    margin: 0;
+}
+.dataTables_filter svg{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.table-responsive {
+    overflow-x: auto;
+    width: 100%;
+}
+table.dataTable.custom-table {
+    border-style: solid;
+    border-color: #dedede;
+    border-width: 0 1px;
+    width: calc(100% - 2px) !important;
+    width: -o-calc(100% - 2px) !important;
+    width: -ms-calc(100% - 2px) !important;
+    width: -moz-calc(100% - 2px) !important;
+    width: -webkit-calc(100% - 2px) !important;
+}
+table.dataTable.custom-table thead th {
+    border-style: solid;
+    border-width: 1px 0 1px 0;
+    border-color: #dedede;
+    padding: 17px 15px;
+    background-color: #f6f6f6;
+    outline: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'poppins';
+    white-space: nowrap;
+    vertical-align: middle;
+}
+table.dataTable tbody tr {
+    background-color: #ffffff;
+}
+table.dataTable.custom-table tbody td {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+    border-style: solid;
+    padding: 17px 15px;
+    border-width: 0 0 1px 0;
+    border-color: #dedede;
+    font-family: 'poppins';
+    vertical-align: middle;
+    line-height: normal;
+}
+.table-holder .dataTables_wrapper .dataTables_info {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    margin: 19px 0 0 0;
+}
+ .dataTables_paginate {
+    margin-top: 20px;
+}
+.paginate_button {
+    color: #666 !important;
+    height: 26px;
+    padding: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'poppins';
+}

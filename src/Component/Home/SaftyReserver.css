@@ -1,0 +1,16 @@
+.safety-section-right{
+    position: relative;
+    top: 50px;
+}
+@media (max-width:768px) {
+    .safety-section-inner{
+        flex-direction: column;
+    }
+    .safety-section-left{
+      max-width: 100% !important;
+    }
+    .safety-section-right{
+        position: relative;
+        top: 0px !important;
+    }
+}

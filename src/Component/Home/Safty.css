@@ -1,0 +1,29 @@
+.safety-section-inner{
+    display: flex;
+}
+@media (max-width:768px) {
+    .safety-section-inner{
+       flex-direction: column-reverse;
+    }
+    .safety-section-right{
+        width: 100% !important;
+        text-align: center;
+    }
+    .safety-section-left{
+        display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    }
+}
+.safety-section-right{
+    width: 60%;
+}
+.saftyText{
+    color: #a7234d;
+    padding: 30px 0;
+}
+.saftyPrag{
+    color: #404040;
+    line-height: 36px;
+    font-weight: 400;
+}

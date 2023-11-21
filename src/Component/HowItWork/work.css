@@ -1,0 +1,22 @@
+.gen-cms-page ul{
+    list-style: none;
+}
+.gen-cms-page ul li{
+    position:relative;
+}
+.gen-cms-page ul li:before {
+    content: '';
+    width: 16px;
+    height: 13px;
+    background-image: url(https://www.talabatak.app/assets/img/apptype/DeliverallX/deliverall/mark.svg);
+    position: absolute;
+    left: -30px;
+    top: 7px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    filter: invert(62%) sepia(70%) saturate(2319%) hue-rotate(48deg) brightness(94%) contrast(102%);
+    -webkit-filter: invert(62%) sepia(70%) saturate(2319%) hue-rotate(48deg) brightness(94%) contrast(102%);
+}
+.ta_Page {
+    max-width: 100%;
+}

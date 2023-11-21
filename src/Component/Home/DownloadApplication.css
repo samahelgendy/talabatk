@@ -1,0 +1,23 @@
+.download-section{
+    background-image: url("https://www.talabatak.app/assets/img/page/home/apptype/DeliverallX/deliverall/shutterstock_1384989188--4-_AR.jpg");
+    height:400px;
+}
+.download-section-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media (max-width:768px) {
+    .download-links{
+        display: flex;
+        flex-direction: column;
+    }
+    .download-links a:first-child{
+        margin-bottom: 20px;
+    }
+
+}

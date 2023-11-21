@@ -1,0 +1,81 @@
+.exclude_addressbar {
+    margin: 0 0 0px;
+    background-image: url(https://www.talabatak.app/resizeImg.php?w=1280&h=438&src=https://www.talabatak.app/assets/img/page/home/apptype/DeliverallX/deliverall/shutterstock_1384989188--4-_AR.jpg);
+    margin: 0 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+ @media screen and (max-width: 1024px){
+.banner-section-inner {
+    padding: 0px !important;
+}
+}
+.banner-section-inner {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 15px 15px 0px 15px;
+    min-height: 300px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.banner-top {
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1024px){
+.banner-top {
+    padding: 0 15px;
+}}
+.banner-caption {
+    position: relative;
+    width: auto;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0;
+    top: auto;
+    color: #fff;
+} 
+
+.banner-caption h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    font-family: 'Montserrat';
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.banner-caption p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    font-weight: 300;
+    font-family: 'Montserrat';
+}
+.button1 {
+    background-color: #a7234d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.carousel-item{
+    height: 100vh;
+}
+.carousel-item img{
+    height: 100vh;
+}
+.button-see-all{
+    width: 100%;
+}

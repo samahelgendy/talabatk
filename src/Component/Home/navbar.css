@@ -1,0 +1,74 @@
+.overlay{
+    width: 100vw;
+    height: calc(100vh - 66px);
+    position: fixed;
+    z-index: 100;
+    clip-path: polygon(0 0,100% 0,100% 0,0 0);
+    top: 66px;
+    background-color: white;
+  }
+  .overlay.active{
+    clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+  
+  }
+  .arabic, .english{
+    border: none;
+    padding: 8px 0px 8px 20px !important;
+    background-color: white;
+    transition: all 0.5s ease 0s;
+    width: calc(100% - 20px );
+    text-align: left;
+  }
+  .arabic:hover , .english:hover{
+    background-color: #eee !important;
+}
+@media (max-width:768px) {
+  .showText{
+    display: none;
+  }
+}
+.anticon {
+  position: relative;
+  right: 300px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.ant-drawer-wrapper-body{
+  background-color: #a7234d;
+    color: white;
+}
+
+.NavSess::after{
+  content: "";
+  background-color: #a7234d;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 40px;
+  transition: 0.5s;
+}
+ .NavSess:hover::after{
+  width: 100%;
+  height: 3px;
+}
+
+/* .NavSess:hover{
+  border-bottom: 3px solid #a7234d;
+} */
+
+
+.ant-drawer-body{
+  padding: 0 !important;
+}
+.user-menu{
+  padding: 0;
+}
+ul.user-menu li{
+padding: 19px 20px 19px 0;
+border-bottom: 1px solid rgba(128, 128, 128, 0.322);
+}
+
+ul.user-menu li:hover{
+  background-color: rgba(0,0,0,.3);
+}

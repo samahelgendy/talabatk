@@ -1,0 +1,92 @@
+.profile-earning {
+    padding: 30px 0;
+    background-color: #eee;
+    margin-bottom: -49px;
+}
+.profile-earning-inner {
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+    min-height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.profile-earning ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    width: 100%;
+}
+@media screen and (max-width: 1024px){
+.profile-earning ul li{
+    width: 50%;
+    margin-bottom: 20px;
+}}
+.profile-earning ul li {
+    width: 33.33%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 530px){
+.profile-earning ul li, .profile-earning ul.doc-upload-listing li {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+}
+.earning-block {
+    background-color: rgba(167, 35, 77, 0.85);
+    color: #fff;
+    padding: 22px 20px;
+    border-radius: 3px;
+    position: relative;
+    min-height: 149px;
+    box-sizing: border-box;
+}
+.place-holder-icon {
+    position: absolute;
+    width: 100%;
+    height: 145px;
+    top: 0;
+    text-align: center;
+    color: #fff;
+    opacity: 0.2;
+    pointer-events: none;
+}
+.place-holder-icon img {
+    max-height: 100%;
+}
+.earning-block strong {
+    font-size: 17px;
+    font-weight: 500;
+    display: block;
+    color: #fff;
+    margin-bottom: 3px;
+}
+.earning-block .count {
+    color: #fff;
+    display: block;
+    font-size: 74px;
+    font-weight: 500;
+    word-break: break-all;
+}
+.earning-block svg {
+    color: #fff;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 35%;
+    height:35px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+.earning-block svg:hover {
+    opacity: 0.7;
+    right: 15px;
+}

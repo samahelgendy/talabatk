@@ -1,0 +1,57 @@
+.banner-section{
+    background-image: url("https://www.talabatak.app/assets/img/page/home/apptype/DeliverallX/deliverall/shutterstock_1384989188--4-_AR.jpg");
+    height: calc(100vh - 66px);
+    position: relative;
+    top: 66px;
+}
+.banner-img{
+    position: relative;
+    transform: translateY(50%);
+    width:700px ;
+     height:300px;
+}
+
+.textRes{
+    position: relative;
+    transform: translateY(50%);
+    width: calc(100vw - 800px);
+    padding-right: 10px;
+   
+}
+@media (max-width:1200px){
+    .banner-img{
+        width:500px ;
+        height:200px;
+    }
+    .textRes{
+        width: calc(100vw - 500px);
+    }
+}
+
+@media (max-width:768px){
+    .bannerCon{
+        flex-direction: column-reverse;
+    }
+    .banner-img{
+        width:100% ;
+        height:200px;
+
+    }
+    .textRes{
+        width: 100%;
+        text-align: center;
+         padding-top: 0px;
+    }
+    .eleSearch{
+      flex-direction: column;
+      
+    }
+    .seaInput , .selectLang , .btnSear{
+      width: 90% !important;
+      margin: 0 auto 10px;
+    }
+}
+.eleSearch{
+    display: flex;
+    justify-content: center;
+}

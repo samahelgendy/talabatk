@@ -1,0 +1,79 @@
+.howitwork {
+    background-color: dimgray;
+}
+.howitwork-inner {
+    min-height: 315px;
+    display: flex;
+    align-items: center;
+    max-width: 1234px;
+    padding:30px 15px 0;
+    margin: 0 auto;
+}
+.howitwork ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.howitwork ul li {
+    width: calc(25% - 30px);
+    width: -o-calc(25% - 30px);
+    width: -ms-calc(25% - 30px);
+    width: -moz-calc(25% - 30px);
+    width: -webkit-calc(25% - 30px);
+    text-align: center;
+    padding: 0s 15px;
+}
+.howitwork ul li i img {
+    max-height: 56px;
+}
+@media screen and (max-width: 1279px){
+.howitwork ul li i img {
+    max-height: 40px;
+}
+}
+@media screen and (max-width: 991px){
+.howitwork ul li {
+    width: calc(50% - 30px);
+    width: -o-calc(50% - 30px);
+    width: -ms-calc(50% - 30px);
+    width: -moz-calc(50% - 30px);
+    width: -webkit-calc(50% - 30px);
+    margin-bottom: 25px;
+}
+}
+@media screen and (max-width: 630px){
+.howitwork ul li {
+    width: 100%;
+    padding: 0;
+}
+}
+.howitwork ul li i {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 2px #fff;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 1279px){
+.howitwork ul li i {
+    width: 80px;
+    height: 80px;
+}
+}
+.howitwork ul li strong {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    display: block;
+    margin: 30px 0 10px 0;
+}
+.howitwork ul li p {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    line-height: 1.428571429;
+
+}

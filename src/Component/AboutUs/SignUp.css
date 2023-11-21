@@ -1,0 +1,120 @@
+.signup-row {
+    background-color: #e0e0e0;
+    overflow: hidden;
+    margin-bottom: -50px;
+}
+.signup-row-inner {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+    display: flex;
+}
+@media (max-width: 767px){
+.signup-row-inner {
+    flex-direction: column;
+}
+.signup-block {
+    width: 100% !important;
+    justify-content: center;
+    min-height: 90px;
+}
+}
+.signup-block {
+    width: 50%;
+    min-height: 140px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.signup-block a {
+    display: inline-flex;
+    text-decoration: none;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    padding-bottom: 5px;
+    margin-bottom: -5px;
+    max-width: 565px;
+    line-height: normal;
+    color: #a7234d;
+}
+@media screen and (max-width: 1119px){
+.signup-block a {
+    font-size: 30px;
+}
+}
+
+@media screen and (max-width: 991px){
+.signup-block a {
+    font-size: 25px;
+}
+}
+@media screen and (max-width: 767px){
+.signup-block a {
+    font-size: 25px;
+    width: 100%;
+    justify-content: space-between;
+}
+}
+.signup-block a img {
+    margin: 0 98px 0 0;
+    left: 0;
+    right: auto;
+    transform: rotatey(180deg);
+    -webkit-transform: rotatey(180deg);
+    -moz-transform: rotatey(180deg);
+    -ms-transform: rotatey(180deg);
+    -o-transform: rotatey(180deg);
+}
+@media screen and (max-width: 991px){
+.signup-block a img {
+    margin-left: 20px;
+    width: 24px;
+}
+}
+.signup-block a img {
+    width: 32px;
+    right: 0;
+    margin-left: 98px;
+    position: relative;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.signup-block.driver:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1px;
+    background-color: #fff;
+    top: 0;
+    bottom: 0;
+}
+@media screen and (max-width: 767px){
+.signup-block.driver:after {
+    left: 0;
+    height: 1px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+}
+}
+.signup-block a:hover:hover, .categories-caption h2 span {
+    color: #757575;
+}
+.signup-block a:hover img {
+    left: -30px;
+    right: auto;
+    filter: invert(47%) sepia(2%) saturate(3%) hue-rotate(349deg) brightness(97%) contrast(90%);
+    
+}
+
